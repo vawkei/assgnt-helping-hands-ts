@@ -1,0 +1,15 @@
+/* .chart {
+  width: "60%";
+  margin: "0 auto";
+} */
+.chart{
+  width: 100%;
+  height: 100vh;
+  /* margin-top: 3rem; */
+  margin: 0rem auto;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

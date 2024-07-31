@@ -1,0 +1,27 @@
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.firstDiv{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.secondDiv{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+label{
+    margin-bottom: 1rem;
+}
+input{
+    padding: 1.5rem;
+    border-radius: 6px;
+}

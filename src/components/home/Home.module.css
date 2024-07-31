@@ -1,0 +1,9 @@
+/* .home-container{
+    margin-top: 6rem;
+} */
+.home-container{
+    width: 100%;
+    max-width: 70rem;
+    margin:6rem auto;
+}
+ 
