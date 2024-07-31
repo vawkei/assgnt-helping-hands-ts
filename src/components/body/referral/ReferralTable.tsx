@@ -1,4 +1,5 @@
 import classes from "./ReferralTable.module.css";
+import ReferralTableData from "./ReferralTableData";
 
 const Countdown = () => {
   return (
@@ -27,6 +28,9 @@ const Countdown = () => {
           <span className={classes["time-value"]}>00</span>
           <span className={classes["time-label"]}>Seconds</span>
         </div>
+      </div>
+      <div className={classes["referral-table-data"]}>
+        <ReferralTableData />
       </div>
       <p className={classes.footer}>Connect your wallet to continue</p>
     </div>
