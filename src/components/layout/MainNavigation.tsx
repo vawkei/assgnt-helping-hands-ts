@@ -13,11 +13,11 @@ const MainNavigation = () => {
     setShowNav(false);
   };
 
-  
-  
-  return ( 
+  return (
     <Card className={classes["nav-container"]}>
-      <div className={classes["h2-container"]}   onClick={showNav ? ()=>showNavHandler(): undefined} >
+      <div
+        className={classes["h2-container"]}
+        onClick={showNav ? hideMenu : undefined}>
         <Link to={"/"}>
           <h2>HELPINGHANDS.CASH</h2>
         </Link>
@@ -38,7 +38,8 @@ const MainNavigation = () => {
         <ul
           className={
             showNav ? `${classes["show-nav"]} ` : `${classes["hide-nav"]}`
-          } onClick={()=>showNavHandler()}>
+          }
+          onClick={() => showNavHandler()}>
           <li>
             <Link to={"/matrix"}>
               <h3>Matrix</h3>
