@@ -40,7 +40,6 @@ a {
   .nav-container {
     /* position: relative; */
     position: fixed;
-    /* height: 12rem;    */
   }
 
   .nav-container .h2-container {
@@ -60,47 +59,41 @@ a {
     flex-direction: column;
     margin-top: 5rem;
     position: absolute;
-    top: 0;
+    top: 0rem;
     left: 2rem;
     transition: all 3s;
-    /* background-color: black; */
-    /* background-color: white; */
-    /* width: 100%; */
     height: 20vh;
+    z-index: 2000;
   }
+  .nav-background-wrapper {
+    position: absolute;
+    top: 5.2rem;
+    left: 0;
+    width: 100%;
+    height: 18vh;
+    background-color:white;
+    transform: translateX(-100%);
+    transition: all 3s;
+    z-index: 1000;
+  }
+  
   .nav-container nav li {
     margin: 1rem 0;
     z-index: 1000;
   }
   .show-nav {
-    transform: translateY(0);
+    transform: translateX(0);
   }
+  
+  .show-nav-background-wrapper {
+    transform: translateX(0);
+  } 
   .hide-nav {
-    transform: translateY(-200%);
+    transform: translateX(-200%);
   }
   .hamburger {
     display: block;
-    /* margin-right: 1rem; */
     font-size: 2rem;
   }
 }
 
-/* .nav-container nav ul {
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  position: absolute;
-  top: 5rem;
-  left: -6rem;
-  left: 2rem;
-  text-align: left;
-  width: 100%;
-  z-index: 3000;
-  padding: 0;
-  margin: 0;
- transform: translateX(-200%); 
-   transition: all 3s; 
-   background-color: black; 
-   height: 100vh;  
-} */
