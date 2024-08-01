@@ -13,3 +13,15 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width:640px){
+  .chart{
+    width: 80%;
+    height: 50vh;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+}

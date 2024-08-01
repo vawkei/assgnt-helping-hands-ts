@@ -9,3 +9,12 @@
     font-family: sans-serif;
     font-weight: 100;
 }
+
+@media screen and (max-width:640px){
+    .footer h3{
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 0.7rem;
+        width: 100%;
+    }   
+}

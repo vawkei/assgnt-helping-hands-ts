@@ -20,4 +20,24 @@
     width: 100%;
     height: 100%;
   }
+
+  @media screen and (max-width:640px){
+    .videoContainer h2{
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .videoWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 3rem;
+      width: 80%;
+      height: 100%;
+    } 
+  }
   

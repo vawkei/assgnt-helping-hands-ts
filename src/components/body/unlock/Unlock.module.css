@@ -37,3 +37,32 @@
     font-family: sans-serif;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width:640px){
+    .unlock-container .top{
+        width: 100%;
+        text-align: center;
+        margin-top: -3rem;
+    }
+    .unlock-container .top h1{
+        font-size: 1.5rem;
+    }
+    .unlock-container .top p{
+        font-size: 1rem;
+    }
+    .cardContent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        gap: 1rem; 
+        width: 100%;
+        height: auto;
+        min-width: 50rem;
+        max-width: none; 
+        margin: 1.5rem;        
+    }
+    .referral-section p{
+        text-align: center;
+        font-size: 1.1rem;
+    }   
+}

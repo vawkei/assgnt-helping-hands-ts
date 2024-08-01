@@ -38,3 +38,32 @@ p{
     max-width: 50rem;
     margin: 6rem auto;
 }
+
+
+
+/* MEDIA QUERY=============================================> */
+@media screen and (max-width:640px){
+    .welcome-container{
+        width: 100%;
+        margin-top: 7rem;
+        text-align: center;
+    }
+    .firstH1{
+        font-size: 1.5rem;
+    }
+    .welcomeText h2{
+        font-size: 1.5em;
+        margin-top: 1rem;
+    }
+    p{
+        font-size: 1.5rem;
+        text-align: center;
+        color: #666;
+        line-height: 1.5;
+        margin: 1rem auto;
+    }
+    .videoSection{
+        margin-top: 1.5rem;
+    }
+
+}

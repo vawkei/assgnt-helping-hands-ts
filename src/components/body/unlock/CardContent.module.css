@@ -7,3 +7,18 @@
 .cardClass p{
     font-size: 1rem;
 }
+
+@media screen and (max-width:640px){
+    .cardClass{
+        padding: 1rem;
+        flex: 1; 
+        /* This is making reference to the align-items:stretch in parent container */
+        border-radius: 6px;
+    }
+    .cardClass h4{
+        font-size: 1.5rem;
+    }
+    .cardClass p{
+        font-size: 1.2rem;
+    }   
+}
